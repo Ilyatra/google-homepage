@@ -47,6 +47,7 @@ em {
   flex-direction: column;
   flex-wrap: nowrap; */
   padding: 10px 20px 0 20px;
+  border-bottom: 1px solid #dadce0;
 }
 
 .header__search-form {
@@ -192,7 +193,7 @@ em {
 }
 
 .main__stats {
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .main__related-links {
@@ -294,7 +295,7 @@ em {
 .footer__country {
   display: inline;
   padding-right: 13px;
-  border-right: solid 1px rgb(112, 117, 122);
+  border-right: solid 1px #dadce0;
 }
 
 .footer__index-city {
