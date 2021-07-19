@@ -186,6 +186,7 @@ em {
 
 .main {
   margin-left: 180px;
+  width: 652px;
 }
 
 .main__result {
@@ -198,6 +199,10 @@ em {
 
 .main__related-links {
   margin-top: 40px;
+}
+
+.main__page-nav {
+  margin: 30px auto;
 }
 
 .stats {
@@ -277,6 +282,65 @@ em {
 
 .related-links__text:hover {
   text-decoration:underline;
+}
+
+.page-nav {
+  border-collapse: collapse;
+}
+
+.page-nav__td {
+  padding: 0;
+  text-align: center;
+}
+
+.page-nav__icon {
+  display: block;
+  height: 40px;
+}
+
+.g-icon {
+  background:url(https://www.google.com/images/nav_logo321.webp) no-repeat;
+  background-position:-24px 0;
+  width: 28px;
+}
+
+.o-red-icon {
+  background: url(https://www.google.com/images/nav_logo321.webp) no-repeat;
+  background-position: -53px 0;
+  width: 20px;
+}
+
+.o-yellow-icon {
+  background: url(https://www.google.com/images/nav_logo321.webp) no-repeat;
+  background-position: -74px 0;
+  width: 20px;
+}
+
+.gle-icon {
+  background: url(https://www.google.com/images/nav_logo321.webp) no-repeat;
+  background-position: -96px 0;
+  width: 71px;
+}
+
+.page-nav__link {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.page-nav__link:hover {
+  text-decoration: underline;
+}
+
+.page-nav__link-curent {
+  color: rgba(0,0,0,.87);
+}
+
+.page-nav__link-curent:hover {
+  text-decoration: none;
+}
+
+.page-nav__link-next{
+  margin-left: 53px;
 }
 
 .footer {
